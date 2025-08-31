@@ -2,10 +2,9 @@ import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { contactInfo } from '@/lib/data';
+import { contactInfo, categories } from '@/lib/data';
 
 export default function Footer() {
-  const categories = ["jwellery"];
   return (
     <footer className="bg-primary text-white">
       {/* Newsletter Section */}

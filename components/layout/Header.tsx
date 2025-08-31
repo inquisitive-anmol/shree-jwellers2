@@ -72,7 +72,7 @@ export default function Header() {
       </div>
 
       <header 
-        className="fixed top-8 left-0 right-0 z-50 border-b border-secondary/20 transition-all duration-700 ease-[cubic-bezier(0.4,0,0.2,1)]"
+        className="fixed top-8 left-0 right-0 z-50 border-b border-secondary/20 transition-all duration-700 ease-out"
         style={navbarStyles}
       >
         <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
