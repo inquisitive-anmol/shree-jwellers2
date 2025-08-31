@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Users, Award, Heart, Shield } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const achievements = [
   { icon: Users, label: '10,000+ Happy Customers', value: '10K+' },
