@@ -66,7 +66,7 @@ export default function Header() {
     <>
       {/* Gold Rate Banner */}
       <div className="bg-primary text-white py-2 px-4 text-center text-sm font-medium">
-        <div className="animate-gold-shimmer">
+        <div className="">
           GOLD 22 KT (916) ₹69,800/10gm | SILVER ₹82,500/kg | Live Rates Updated
         </div>
       </div>
