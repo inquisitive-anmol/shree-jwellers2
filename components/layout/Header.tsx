@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -16,17 +16,65 @@ const navigation = [
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      setScrollY(currentScrollY);
+      
+      // Hide navbar when scrolling down, show when scrolling up
+      if (currentScrollY > lastScrollY && currentScrollY > 80) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY]);
+
+  // Calculate dynamic styles based on scroll position
+  const getNavbarStyles = () => {
+    const isAtTop = scrollY < 10;
+    const scrollProgress = Math.min(scrollY / 100, 1);
+    
+    return {
+      transform: isVisible ? 'translateY(0)' : 'translateY(-120%)',
+      backdropFilter: isAtTop ? 'blur(0px)' : `blur(${8 + scrollProgress * 8}px)`,
+      backgroundColor: isAtTop 
+        ? 'rgba(255, 255, 255, 0.95)' 
+        : `rgba(255, 255, 255, ${0.95 + scrollProgress * 0.05})`,
+      boxShadow: isAtTop 
+        ? '0 4px 6px -1px rgba(0, 0, 0, 0.1)' 
+        : `0 10px 25px -5px rgba(0, 0, 0, ${0.1 + scrollProgress * 0.1})`,
+      opacity: isVisible ? 1 : 0,
+    };
+  };
+
+  const navbarStyles = getNavbarStyles();
 
   return (
     <>
       {/* Gold Rate Banner */}
       <div className="bg-primary text-white py-2 px-4 text-center text-sm font-medium">
-        <div className="">
+        <div className="animate-gold-shimmer">
           GOLD 22 KT (916) ₹69,800/10gm | SILVER ₹82,500/kg | Live Rates Updated
         </div>
       </div>
 
-      <header className="fixed top-8 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-lg border-b border-secondary/20">
+      <header 
+        className="fixed top-8 left-0 right-0 z-50 border-b border-secondary/20 transition-all duration-700 ease-[cubic-bezier(0.4,0,0.2,1)]"
+        style={navbarStyles}
+      >
         <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
