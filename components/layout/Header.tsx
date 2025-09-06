@@ -79,15 +79,13 @@ export default function Header() {
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3 group">
-              <div className="w-10 h-10 bg-gold-gradient rounded-full flex items-center justify-center group-hover:scale-105 transition-transform">
-                <span className="text-primary font-bold text-lg">🕉</span>
+              <div className="w-14 h-14 bg-gold-gradient rounded-full flex items-center justify-center group-hover:scale-105 transition-transform">
+                {/* <span className="text-primary font-bold text-lg">🕉</span> */}
+                <img src="/images/pjwLogo.png" alt="Priyansh Jwellers Logo." className='rounded-full' />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-heading font-bold text-primary">
-                  SHREE GANESH
-                </span>
-                <span className="text-sm text-primary/80 font-medium -mt-1">
-                  JEWELLERS
+                  Priyansh Jwellers
                 </span>
               </div>
             </Link>
