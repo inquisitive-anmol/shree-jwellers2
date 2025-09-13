@@ -15,17 +15,22 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Shree Ganesh Jewellers - Premium Gold & Diamond Jewelry | Raipur',
-  description: 'Discover exquisite gold and diamond jewelry at Shree Ganesh Jewellers, Raipur. Traditional craftsmanship meets modern elegance. Shop rings, necklaces, earrings & more.',
-  keywords: 'jewelry, gold, diamond, Raipur, traditional jewelry, wedding jewelry, gold jewelry, Shree Ganesh Jewellers',
-  authors: [{ name: 'Shree Ganesh Jewellers' }],
+  title: 'Priyansh jewellerss - Premium Gold & Diamond Jewelry | Sujangarh',
+  description: 'Discover exquisite gold and diamond jewelry at Priyansh jewellerss, Sujangarh. Traditional craftsmanship meets modern elegance. Shop rings, necklaces, earrings & more.',
+  keywords: 'jewelry, gold, diamond, Raipur, traditional jewelry, wedding jewelry, gold jewelry, Priyansh jewellerss',
+  authors: [{ name: 'Priyansh jewellerss' }],
   viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
-    title: 'Shree Ganesh Jewellers - Premium Jewelry Collection',
+    title: 'Priyansh jewellerss - Premium Jewelry Collection',
     description: 'Exquisite gold and diamond jewelry crafted with tradition and excellence',
     type: 'website',
     locale: 'en_IN',
+  },
+  icons: {
+    icon: "/images/pjwLogo.png", // default
+    shortcut: "/images/pjwLogo.png", // for older browsers
+    apple: "/images/pjwLogo.png", // optional
   },
 };
 
