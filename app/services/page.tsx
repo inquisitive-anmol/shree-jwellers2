@@ -9,6 +9,8 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const iconMap = {
   smartphone: Smartphone,
@@ -19,6 +21,8 @@ const iconMap = {
 
 export default function ServicesPage() {
   return (
+    <>
+    <Header />
     <div className="min-h-screen bg-cream-gradient py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -115,5 +119,7 @@ export default function ServicesPage() {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   );
 }

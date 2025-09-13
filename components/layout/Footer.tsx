@@ -42,12 +42,12 @@ export default function Footer() {
             {/* Company Info */}
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-gold-gradient rounded-full flex items-center justify-center">
-                  <span className="text-primary font-bold">🕉</span>
-                </div>
+              <div className="w-14 h-14 bg-gold-gradient rounded-full flex items-center justify-center group-hover:scale-105 transition-transform">
+                {/* <span className="text-primary font-bold text-lg">🕉</span> */}
+                <img src="/images/pjwLogo.png" alt="Priyansh Jwellers Logo." className='rounded-full' />
+              </div>
                 <div>
-                  <h3 className="text-xl font-heading font-bold">Shree Ganesh</h3>
-                  <p className="text-sm text-white/80">Jewellers</p>
+                  <h3 className="text-xl font-heading font-bold">Priyansh Jewellerss</h3>
                 </div>
               </div>
               <p className="text-white/80 text-sm leading-relaxed">
@@ -135,7 +135,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <p className="text-white/80 text-sm">
-              © 2025 Shree Ganesh Jewellers. All rights reserved.
+              © 2025 Priyansh Jewellerss. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link href="/privacy" className="text-white/80 hover:text-secondary transition-colors">

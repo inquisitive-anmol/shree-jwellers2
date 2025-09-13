@@ -49,6 +49,14 @@ export const categories: Category[] = [
     image: 'https://images.pexels.com/photos/1453769/pexels-photo-1453769.jpeg?auto=compress&cs=tinysrgb&w=600',
     productCount: 16,
   },
+  {
+    id: '7',
+    name: 'Silver Unique Items',
+    slug: 'silver-items',
+    description: 'Unique and exquisite silver items',
+    image: 'https://images.pexels.com/photos/1453769/pexels-photo-1453769.jpeg?auto=compress&cs=tinysrgb&w=600',
+    productCount: 43,
+  },
 ];
 
 export const services: Service[] = [
@@ -114,10 +122,10 @@ export const sampleProducts: Product[] = [
 ];
 
 export const contactInfo: ContactInfo = {
-  phone: '+91 9876543210',
-  whatsapp: '+91 9876543210',
-  email: 'info@shreeganeshjewellers.com',
-  address: 'Shop No. 123, Main Road, Raipur, Chhattisgarh 492001',
+  phone: '+91 9667177704',
+  whatsapp: '6377209425 ',
+  email: 'info@priyanshjewellers.com',
+  address: 'Priyansh Jewellers, Sona Patti, Naya Bazar, Sujangarh 331507',
   hours: {
     weekdays: '10:00 AM - 8:00 PM',
     weekends: '10:00 AM - 9:00 PM',

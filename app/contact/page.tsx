@@ -6,6 +6,9 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { contactInfo } from '@/lib/data';
+import MapEmbed from '@/components/map-embed';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -30,6 +33,8 @@ export default function ContactPage() {
   };
 
   return (
+    <>
+    <Header />
     <div className="min-h-screen bg-cream-gradient py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -49,7 +54,7 @@ export default function ContactPage() {
               <h2 className="text-2xl font-heading font-bold text-primary mb-6">
                 Contact Information
               </h2>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
@@ -67,7 +72,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-brown mb-1">Phone</h3>
-                    <a 
+                    <a
                       href={`tel:${contactInfo.phone}`}
                       className="text-brown/70 hover:text-primary transition-colors"
                     >
@@ -82,7 +87,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-brown mb-1">Email</h3>
-                    <a 
+                    <a
                       href={`mailto:${contactInfo.email}`}
                       className="text-brown/70 hover:text-primary transition-colors"
                     >
@@ -113,12 +118,12 @@ export default function ContactPage() {
               <p className="text-green-100 mb-4 text-sm">
                 Get instant responses to your queries
               </p>
-              <Button 
+              <Button
                 className="bg-white text-green-500 hover:bg-green-50 w-full"
                 asChild
               >
-                <a 
-                  href={`https://wa.me/${contactInfo.whatsapp.replace('+', '')}`}
+                <a
+                  href={`https://wa.me/${contactInfo.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -134,7 +139,7 @@ export default function ContactPage() {
               <h2 className="text-2xl font-heading font-bold text-primary mb-6">
                 Send us a Message
               </h2>
-              
+
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -152,7 +157,7 @@ export default function ContactPage() {
                       placeholder="Your full name"
                     />
                   </div>
-                  
+
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-brown mb-2">
                       Email Address *
@@ -185,7 +190,7 @@ export default function ContactPage() {
                       placeholder="+91 9876543210"
                     />
                   </div>
-                  
+
                   <div>
                     <label htmlFor="subject" className="block text-sm font-medium text-brown mb-2">
                       Subject *
@@ -219,7 +224,7 @@ export default function ContactPage() {
                   />
                 </div>
 
-                <Button 
+                <Button
                   type="submit"
                   size="lg"
                   className="w-full bg-primary hover:bg-primary-dark text-white"
@@ -236,15 +241,13 @@ export default function ContactPage() {
           <h2 className="text-2xl font-heading font-bold text-primary mb-6 text-center">
             Visit Our Store
           </h2>
-          <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-            <div className="text-center text-brown/70">
-              <MapPin className="w-12 h-12 mx-auto mb-4" />
-              <p className="font-medium">Interactive Map</p>
-              <p className="text-sm">Raipur, Chhattisgarh</p>
-            </div>
+          <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center overflow-hidden">
+            <div className='w-full h-full'><MapEmbed /></div>
           </div>
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   );
 }

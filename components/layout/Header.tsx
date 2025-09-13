@@ -24,19 +24,19 @@ export default function Header() {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       setScrollY(currentScrollY);
-      
+
       // Hide navbar when scrolling down, show when scrolling up
       if (currentScrollY > lastScrollY && currentScrollY > 80) {
         setIsVisible(false);
       } else {
         setIsVisible(true);
       }
-      
+
       setLastScrollY(currentScrollY);
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
-    
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -46,15 +46,15 @@ export default function Header() {
   const getNavbarStyles = () => {
     const isAtTop = scrollY < 10;
     const scrollProgress = Math.min(scrollY / 100, 1);
-    
+
     return {
       transform: isVisible ? 'translateY(0)' : 'translateY(-120%)',
       backdropFilter: isAtTop ? 'blur(0px)' : `blur(${8 + scrollProgress * 8}px)`,
-      backgroundColor: isAtTop 
-        ? 'rgba(255, 255, 255, 0.95)' 
+      backgroundColor: isAtTop
+        ? 'rgba(255, 255, 255, 0.95)'
         : `rgba(255, 255, 255, ${0.95 + scrollProgress * 0.05})`,
-      boxShadow: isAtTop 
-        ? '0 4px 6px -1px rgba(0, 0, 0, 0.1)' 
+      boxShadow: isAtTop
+        ? '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
         : `0 10px 25px -5px rgba(0, 0, 0, ${0.1 + scrollProgress * 0.1})`,
       opacity: isVisible ? 1 : 0,
     };
@@ -71,7 +71,7 @@ export default function Header() {
         </div>
       </div>
 
-      <header 
+      <header
         className="fixed top-8 left-0 right-0 z-50 border-b border-secondary/20 transition-all duration-700 ease-out"
         style={navbarStyles}
       >
@@ -85,7 +85,7 @@ export default function Header() {
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-heading font-bold text-primary">
-                  Priyansh Jwellers
+                  Priyansh Jewellerss
                 </span>
               </div>
             </Link>
@@ -108,10 +108,12 @@ export default function Header() {
             <div className="hidden lg:flex items-center space-x-4">
               <div className="flex items-center space-x-2 text-sm text-brown">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>Raipur</span>
+                <Link href="https://maps.app.goo.gl/AaJA38BMauunr33A6?g_st=awb" target='_blank'>
+                  <span>Sujangarh</span>
+                </Link>
               </div>
-              <Button 
-                variant="default" 
+              <Button
+                variant="default"
                 size="sm"
                 className="bg-primary hover:bg-primary-dark text-white"
                 asChild
@@ -152,8 +154,8 @@ export default function Header() {
                 </Link>
               ))}
               <div className="pt-4 border-t border-secondary/20">
-                <Button 
-                  variant="default" 
+                <Button
+                  variant="default"
                   className="w-full bg-primary hover:bg-primary-dark text-white"
                   asChild
                 >
