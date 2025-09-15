@@ -105,7 +105,7 @@ export default function Header() {
             </div>
 
             {/* Contact Info & CTA */}
-            <div className="hidden lg:flex items-center space-x-4">
+            {/* <div className="hidden lg:flex items-center space-x-4">
               <div className="flex items-center space-x-2 text-sm text-brown">
                 <MapPin className="w-4 h-4 text-primary" />
                 <Link href="https://maps.app.goo.gl/AaJA38BMauunr33A6?g_st=awb" target='_blank'>
@@ -123,7 +123,7 @@ export default function Header() {
                   <span>Call Now</span>
                 </a>
               </Button>
-            </div>
+            </div> */}
 
             {/* Mobile menu button */}
             <button
@@ -153,7 +153,7 @@ export default function Header() {
                   {item.name}
                 </Link>
               ))}
-              <div className="pt-4 border-t border-secondary/20">
+              {/* <div className="pt-4 border-t border-secondary/20">
                 <Button
                   variant="default"
                   className="w-full bg-primary hover:bg-primary-dark text-white"
@@ -164,7 +164,7 @@ export default function Header() {
                     <span>Call Now</span>
                   </a>
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         )}

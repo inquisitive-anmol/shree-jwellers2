@@ -10,7 +10,7 @@ export const categories: Category[] = [
     productCount: 24,
   },
   {
-    id: '2', 
+    id: '2',
     name: 'Bracelets',
     slug: 'bracelets',
     description: 'Beautiful gold and diamond bracelets',
@@ -20,7 +20,7 @@ export const categories: Category[] = [
   {
     id: '3',
     name: 'Earrings',
-    slug: 'earrings', 
+    slug: 'earrings',
     description: 'Traditional and modern earring designs',
     image: 'https://images.pexels.com/photos/1391480/pexels-photo-1391480.jpeg?auto=compress&cs=tinysrgb&w=600',
     productCount: 32,
@@ -54,7 +54,7 @@ export const categories: Category[] = [
     name: 'Silver Unique Items',
     slug: 'silver-items',
     description: 'Unique and exquisite silver items',
-    image: 'https://images.pexels.com/photos/1453769/pexels-photo-1453769.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/prods/charan-paduka/charan-paduka (1).jpg',
     productCount: 43,
   },
 ];
@@ -118,6 +118,19 @@ export const sampleProducts: Product[] = [
     inStock: true,
     featured: true,
   },
+  {
+    id: '3',
+    name: 'Charan Paduka',
+    category: 'silver-items',
+    price: 125000,
+    images: ['/prods/charan-paduka/charan-paduka (1).jpg', '/prods/charan-paduka/charan-paduka (2).jpg', '/prods/charan-paduka/charan-paduka (3).jpg', '/prods/charan-paduka/charan-paduka (4).jpg', '/prods/charan-paduka/charan-paduka (5).jpg', '/prods/charan-paduka/charan-paduka (6).jpg', '/prods/charan-paduka/charan-paduka (7).jpg', '/prods/charan-paduka/charan-paduka (8).jpg', '/prods/charan-paduka/charan-paduka (9).jpg', '/prods/charan-paduka/charan-paduka (10).jpg', '/prods/charan-paduka/charan-paduka (11).jpg', '/prods/charan-paduka/charan-paduka (12).jpg', '/prods/charan-paduka/charan-paduka (13).jpg'],
+    description: 'Stunning Silver Charan Paduka',
+    material: 'Silver',
+    weight: '',
+    purity: '',
+    inStock: true,
+    featured: true,
+  },
   // Add more sample products as needed
 ];
 
@@ -141,7 +154,7 @@ export const testimonials = [
     location: 'Raipur',
   },
   {
-    id: '2', 
+    id: '2',
     name: 'Raj Patel',
     text: 'Trusted jeweller with transparent pricing. Bought my wedding rings here and couldn\'t be happier.',
     rating: 5,
