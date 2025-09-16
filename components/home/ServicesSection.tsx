@@ -19,7 +19,7 @@ const iconMap = {
 
 export default function ServicesSection() {
   return (
-    <section className="py-20 bg-primary text-white relative overflow-hidden">
+    <section className="py-20 bg-navy text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-64 h-64 border border-secondary rounded-full -translate-x-32 -translate-y-32"></div>
@@ -50,8 +50,8 @@ export default function ServicesSection() {
                 style={{ animationDelay: `${index * 150}ms` }}
               >
                 {/* Icon */}
-                <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <IconComponent className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 bg-navy rounded-2xl ring-2 ring-gold flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                  <IconComponent className="w-8 h-8 text-gold" />
                 </div>
 
                 {/* Content */}
@@ -66,7 +66,7 @@ export default function ServicesSection() {
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center space-x-2 text-sm text-white/90">
-                      <Check className="w-4 h-4 text-secondary flex-shrink-0" />
+                      <Check className="w-4 h-4 text-gold flex-shrink-0" />
                       <span>{feature}</span>
                     </li>
                   ))}

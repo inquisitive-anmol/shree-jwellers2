@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         navy: '#0a2342',
+        'navy-dark': '#07162e',
         gold: '#ffd700',
         primary: {
           DEFAULT: '#800020',

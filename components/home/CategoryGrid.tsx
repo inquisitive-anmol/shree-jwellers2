@@ -7,7 +7,7 @@ import { ArrowRight, Package } from 'lucide-react';
 
 export default function CategoryGrid() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-cream-gradient">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
