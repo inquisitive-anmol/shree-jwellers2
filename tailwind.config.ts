@@ -10,6 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        navy: '#0a2342',
+        gold: '#ffd700',
         primary: {
           DEFAULT: '#800020',
           dark: '#9d0208',

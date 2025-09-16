@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-indian-pattern bg-cream-gradient overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-navy overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-32 h-32 border-2 border-secondary rounded-full"></div>
@@ -23,24 +23,24 @@ export default function HeroSection() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-heading font-bold text-primary mb-6 leading-tight animate-slide-up">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-heading font-bold text-gold mb-6 leading-tight animate-slide-up">
             Exquisite Jewelry
             <br />
-            <span className="text-secondary">Crafted with</span>
+            <span className="text-gold">Crafted with</span>
             <br />
             Tradition & Excellence
           </h1>
 
           {/* Subheading */}
-          <p className="text-lg sm:text-xl text-brown/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Discover our magnificent collection of handcrafted gold and diamond jewelry, 
+          <p className="text-lg sm:text-xl text-gold/90 mb-8 max-w-3xl mx-auto leading-relaxed">
+            Discover our magnificent collection of handcrafted gold and diamond jewelry,
             where timeless tradition meets contemporary elegance at Raipur's most trusted jeweller.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-primary hover:bg-primary-dark text-white px-8 py-4 text-lg font-semibold group"
               asChild
             >
@@ -49,9 +49,9 @@ export default function HeroSection() {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
-            
-            <Button 
-              variant="outline" 
+
+            <Button
+              variant="outline"
               size="lg"
               className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 text-lg font-semibold"
               asChild
@@ -63,20 +63,20 @@ export default function HeroSection() {
           {/* Trust Indicators */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-1">40+</div>
-              <div className="text-sm text-brown/80">Years Experience</div>
+              <div className="text-3xl font-bold text-white mb-1">40+</div>
+              <div className="text-sm text-white">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-1">10k+</div>
-              <div className="text-sm text-brown/80">Happy Customers</div>
+              <div className="text-3xl font-bold text-white mb-1">10k+</div>
+              <div className="text-sm text-white">Happy Customers</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-1">916</div>
-              <div className="text-sm text-brown/80">Gold Purity</div>
+              <div className="text-3xl font-bold text-white mb-1">916</div>
+              <div className="text-sm text-white">Gold Purity</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-1">100%</div>
-              <div className="text-sm text-brown/80">Certified</div>
+              <div className="text-3xl font-bold text-white mb-1">100%</div>
+              <div className="text-sm text-white">Certified</div>
             </div>
           </div>
         </div>
@@ -84,8 +84,8 @@ export default function HeroSection() {
 
       {/* Floating Elements */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary/30 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
+        <div className="w-6 h-10 border-2 border-gold/70 rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-gold rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>
