@@ -23,7 +23,7 @@ export default function ServicesPage() {
   return (
     <>
     <Header />
-    <div className="min-h-screen bg-cream-gradient py-20">
+    <div className="min-h-screen bg-cream-gradient pt-28 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">

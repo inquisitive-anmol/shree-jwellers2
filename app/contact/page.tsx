@@ -35,7 +35,7 @@ export default function ContactPage() {
   return (
     <>
     <Header />
-    <div className="min-h-screen bg-cream-gradient py-20">
+    <div className="min-h-screen bg-cream-gradient pt-28 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -237,7 +237,7 @@ export default function ContactPage() {
         </div>
 
         {/* Map Section */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
+        <div className="bg-white rounded-2xl p-8 shadow-lg mt-8">
           <h2 className="text-2xl font-heading font-bold text-primary mb-6 text-center">
             Visit Our Store
           </h2>

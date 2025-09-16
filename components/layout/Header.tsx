@@ -75,16 +75,16 @@ export default function Header() {
         className="fixed top-8 left-0 right-0 z-50 border-b border-secondary/20 transition-all duration-700 ease-out"
         style={navbarStyles}
       >
-        <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <nav className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3 group">
-              <div className="w-14 h-14 bg-gold-gradient rounded-full flex items-center justify-center group-hover:scale-105 transition-transform">
+              <div className="w-20 h-20 bg-gold-gradient rounded-full flex items-center justify-center group-hover:scale-105 transition-transform">
                 {/* <span className="text-primary font-bold text-lg">🕉</span> */}
                 <img src="/images/pjwLogo.png" alt="Priyansh Jwellers Logo." className='rounded-full' />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-heading font-bold text-primary">
+                <span className="text-2xl font-heading font-bold text-primary">
                   Priyansh Jewellerss
                 </span>
               </div>
@@ -96,7 +96,7 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-brown hover:text-primary transition-colors duration-200 font-medium relative group"
+                  className="text-brown hover:text-primary transition-colors duration-200 font-medium relative group text-lg"
                 >
                   {item.name}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-secondary group-hover:w-full transition-all duration-300"></span>

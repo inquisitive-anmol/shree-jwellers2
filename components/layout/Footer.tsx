@@ -70,7 +70,7 @@ export default function Footer() {
             {/* Quick Links */}
             <div>
               <h4 className="text-lg font-heading font-semibold mb-4">Quick Links</h4>
-              <ul className="space-y-2">
+              <ul className="grid grid-cols-3 gap-2 text-sm md:space-y-2 md:grid-cols-1 md:text-base">
                 <li><Link href="/collections" className="text-white/80 hover:text-secondary transition-colors">Collections</Link></li>
                 <li><Link href="/services" className="text-white/80 hover:text-secondary transition-colors">Services</Link></li>
                 <li><Link href="/about" className="text-white/80 hover:text-secondary transition-colors">About Us</Link></li>
@@ -83,7 +83,7 @@ export default function Footer() {
             {/* Categories */}
             <div>
               <h4 className="text-lg font-heading font-semibold mb-4">Categories</h4>
-              <ul className="space-y-2">
+              <ul className="grid grid-cols-3 gap-2 text-sm md:space-y-2 md:grid-cols-1 md:text-base">
                 {categories.slice(0, 6).map((category) => (
                   <li key={category.id}>
                     <Link 

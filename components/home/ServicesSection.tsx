@@ -19,7 +19,7 @@ const iconMap = {
 
 export default function ServicesSection() {
   return (
-    <section className="py-20 bg-navy text-white relative overflow-hidden">
+    <section className="pb-20 bg-navy text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-64 h-64 border border-secondary rounded-full -translate-x-32 -translate-y-32"></div>
@@ -30,11 +30,11 @@ export default function ServicesSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-            Our <span className="text-secondary">Premium</span> Services
+            {/* Our  Services */}
+            Why<span className="text-secondary"> Choose </span>Us
           </h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Beyond beautiful jewelry, we offer modern investment solutions and personalized services 
-            to enhance your jewelry experience.
+          At Priyansh Jewellers, we don't just sell ornaments - we deliver heritage, trust, and unmatched value. Here's why customers & businesses choose us
           </p>
         </div>
 
