@@ -91,21 +91,29 @@ export default function CategoryPage({ params }: CategoryPageProps) {
               key={product.id}
               className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden"
             >
-              {/* Product Image */}
+              {/* Product Images (scrollable) */}
               <div className="relative h-64 overflow-hidden">
-                <Image
-                  src={product.images[0]}
-                  alt={product.name}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                
+                <div className="h-full w-full overflow-x-auto flex snap-x snap-mandatory scroll-smooth">
+                  {product.images.map((imgSrc, imgIdx) => (
+                    <div key={imgIdx} className="relative h-64 w-full flex-shrink-0 basis-full snap-center">
+                      <Image
+                        src={imgSrc}
+                        alt={`${product.name} - ${imgIdx + 1}`}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                        priority={index < 4 && imgIdx === 0}
+                      />
+                    </div>
+                  ))}
+                </div>
+
                 {/* Action Buttons */}
-                <div className="absolute top-4 right-4 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <button className="w-8 h-8 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
+                <div className="pointer-events-none absolute top-4 right-4 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <button className="pointer-events-auto w-8 h-8 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
                     <Heart className="w-4 h-4 text-primary" />
                   </button>
-                  <button className="w-8 h-8 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
+                  <button className="pointer-events-auto w-8 h-8 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
                     <Share2 className="w-4 h-4 text-primary" />
                   </button>
                 </div>
