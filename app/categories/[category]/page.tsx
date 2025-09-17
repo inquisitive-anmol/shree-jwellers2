@@ -33,17 +33,17 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <nav className="flex items-center space-x-2 text-sm text-brown/70 mb-8">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+          <Link href="/" className="hover:text-navy transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/collections" className="hover:text-primary transition-colors">Collections</Link>
+          <Link href="/collections" className="hover:text-navy transition-colors">Collections</Link>
           <span>/</span>
-          <span className="text-primary font-medium">{category.name}</span>
+          <span className="text-navy font-medium">{category.name}</span>
         </nav>
 
         {/* Back Button */}
         <Link 
           href="/collections"
-          className="inline-flex items-center space-x-2 text-primary hover:text-primary-dark transition-colors mb-8 group"
+          className="inline-flex items-center space-x-2 text-navy hover:text-navy-dark transition-colors mb-8 group"
         >
           <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
           <span>Back to Collections</span>
@@ -51,7 +51,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
         {/* Category Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-heading font-bold text-primary mb-4">
+          <h1 className="text-4xl md:text-6xl font-heading font-bold text-navy mb-4">
             {category.name}
           </h1>
           <p className="text-lg text-brown/80 max-w-2xl mx-auto mb-8">
@@ -99,16 +99,16 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                 {/* Action Buttons */}
                 <div className="pointer-events-none absolute top-4 right-4 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-opacity">
                   <button className="pointer-events-auto w-8 h-8 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
-                    <Heart className="w-4 h-4 text-primary" />
+                    <Heart className="w-4 h-4 text-navy" />
                   </button>
                   <button className="pointer-events-auto w-8 h-8 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
-                    <Share2 className="w-4 h-4 text-primary" />
+                    <Share2 className="w-4 h-4 text-navy" />
                   </button>
                 </div>
 
                 {/* Sale Badge */}
                 {product.originalPrice && (
-                  <div className="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-xs font-semibold">
+                  <div className="absolute top-4 left-4 bg-navy text-white px-3 py-1 rounded-full text-xs font-semibold">
                     SALE
                   </div>
                 )}
@@ -116,14 +116,14 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
               {/* Product Info */}
               <div className="p-6">
-                <h3 className="text-lg font-heading font-semibold text-primary mb-2 group-hover:text-primary-dark transition-colors">
+                <h3 className="text-lg font-heading font-semibold text-navy mb-2 group-hover:text-navy-dark transition-colors">
                   {product.name}
                 </h3>
                 <p className="text-sm text-brown/70 mb-3">{product.material}</p>
                 
                 {/* Price */}
                 <div className="flex items-center space-x-2 mb-4">
-                  <span className="text-xl font-bold text-primary">
+                  <span className="text-xl font-bold text-navy">
                     ₹{product.price.toLocaleString()}
                   </span>
                   {product.originalPrice && (
@@ -146,7 +146,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
                 {/* Action Button */}
                 <Button 
-                  className="w-full bg-primary hover:bg-primary-dark text-white"
+                  className="w-full bg-navy hover:bg-navy-dark text-white"
                   disabled={!product.inStock}
                 >
                   {product.inStock ? 'View Details' : 'Notify When Available'}
@@ -158,7 +158,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
         {/* Load More */}
         <div className="text-center mt-16">
-          <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
+          <Button size="lg" variant="outline" className="border-navy text-navy hover:bg-navy hover:text-white">
             Load More Products
           </Button>
         </div>
