@@ -1,6 +1,7 @@
 import { categories, sampleProducts } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
+import ImageCarousel from '@/components/common/ImageCarousel';
 import Link from 'next/link';
 import { ArrowLeft, Filter, Heart, Share2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -91,22 +92,9 @@ export default function CategoryPage({ params }: CategoryPageProps) {
               key={product.id}
               className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden"
             >
-              {/* Product Images (scrollable) */}
-              <div className="relative h-64 overflow-hidden">
-                <div className="h-full w-full overflow-x-auto flex snap-x snap-mandatory scroll-smooth">
-                  {product.images.map((imgSrc, imgIdx) => (
-                    <div key={imgIdx} className="relative h-64 w-full flex-shrink-0 basis-full snap-center">
-                      <Image
-                        src={imgSrc}
-                        alt={`${product.name} - ${imgIdx + 1}`}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                        priority={index < 4 && imgIdx === 0}
-                      />
-                    </div>
-                  ))}
-                </div>
+              {/* Product Images Carousel */}
+              <div className="relative">
+                <ImageCarousel images={product.images} alt={product.name} priority={index < 4} />
 
                 {/* Action Buttons */}
                 <div className="pointer-events-none absolute top-4 right-4 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-opacity">
