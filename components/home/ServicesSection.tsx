@@ -69,20 +69,20 @@ export default function ServicesSection() {
     },
   ] as const;
   return (
-    <section className="pb-20 pt-12 bg-navy text-white relative overflow-hidden">
+    <section className="pb-20 pt-12 bg-cream text-brown relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 left-0 w-64 h-64 border border-secondary rounded-full -translate-x-32 -translate-y-32"></div>
+        <div className="absolute top-0 left-0 w-64 h-64 border border-gold rounded-full -translate-x-32 -translate-y-32"></div>
         <div className="absolute bottom-0 right-0 w-80 h-80 border border-secondary-bronze rounded-full translate-x-40 translate-y-40"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4 text-gold">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4 text-brown">
             Why Choose Us
           </h2>
-          <p className="text-lg text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg text-brown/80 max-w-3xl mx-auto leading-relaxed">
             At Priyansh Jewellers, we don’t just sell ornaments – we deliver heritage, trust, and unmatched value.
           </p>
         </div>
@@ -94,7 +94,7 @@ export default function ServicesSection() {
             return (
               <motion.div
                 key={title}
-                className={`group relative overflow-hidden rounded-2xl ${isBright ? 'bg-gold text-navy' : 'bg-white/10 text-white'}`}
+                className={`group relative overflow-hidden rounded-2xl ${isBright ? 'bg-gold text-brown' : 'bg-white text-brown'}`}
                 variants={cardVariants}
                 initial="hidden"
                 whileInView="show"
@@ -103,11 +103,11 @@ export default function ServicesSection() {
               >
                 {/* Content */}
                 <div className="relative p-5 md:p-6 lg:p-7 xl:p-8 min-h-40 flex flex-col">
-                  <div className={`${isBright ? 'bg-white' : 'bg-navy ring-2 ring-gold'} w-12 h-12 md:w-14 md:h-14 rounded-2xl flex items-center justify-center mb-4 md:mb-6`}>
-                    <Icon className={`w-6 h-6 md:w-7 md:h-7 ${isBright ? 'text-navy' : 'text-gold'}`} />
+                  <div className={`${isBright ? 'bg-white' : 'bg-cream ring-2 ring-gold'} w-12 h-12 md:w-14 md:h-14 rounded-2xl flex items-center justify-center mb-4 md:mb-6`}>
+                    <Icon className={`w-6 h-6 md:w-7 md:h-7 ${isBright ? 'text-brown' : 'text-gold'}`} />
                   </div>
                   <h3 className="text-base md:text-lg lg:text-xl font-heading font-bold leading-snug mb-2">{title}</h3>
-                  <p className={`${isBright ? 'text-navy/80' : 'text-white/85'} text-sm md:text-[15px] leading-relaxed`}>{description}</p>
+                  <p className={`${isBright ? 'text-brown/80' : 'text-brown/80'} text-sm md:text-[15px] leading-relaxed`}>{description}</p>
                 </div>
               </motion.div>
             );
@@ -116,11 +116,11 @@ export default function ServicesSection() {
 
         {/* CTA Section */}
         <div className="text-center mt-16">
-          <div className="inline-flex items-center space-x-4 bg-white/10 backdrop-blur-sm px-8 py-4 rounded-full">
-            <span className="text-white/90 font-medium">Interested in our services?</span>
+          <div className="inline-flex items-center space-x-4 bg-white/70 backdrop-blur-sm px-8 py-4 rounded-full">
+            <span className="text-brown/90 font-medium">Interested in our services?</span>
             <Link
               href="/services"
-              className="bg-secondary hover:bg-secondary-bronze text-primary px-6 py-2 rounded-full font-semibold transition-colors duration-200"
+              className="bg-gold hover:bg-secondary-bronze text-brown px-6 py-2 rounded-full font-semibold transition-colors duration-200"
             >
               Learn More
             </Link>

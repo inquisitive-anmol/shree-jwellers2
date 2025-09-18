@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className='relative'>
 
-      <div className="min-h-screen bg-gradient-to-r from-black/20 to-cream-gradient"
+      <div className="min-h-screen bg-cream-gradient"
       >
         <Header />
         <HeroSection />

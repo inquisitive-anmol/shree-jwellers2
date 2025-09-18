@@ -12,7 +12,7 @@ const config: Config = {
       colors: {
         navy: '#0a2342',
         'navy-dark': '#07162e',
-        gold: '#ffd700',
+        gold: '#f5bb3f',
         primary: {
           DEFAULT: '#800020',
           dark: '#9d0208',
@@ -21,8 +21,8 @@ const config: Config = {
           DEFAULT: '#ffd700',
           bronze: '#b8860b',
         },
-        cream: '#f5f5dc',
-        brown: '#3e2723',
+        cream: 'ead8c9',
+        brown: '#6f4d3f',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {

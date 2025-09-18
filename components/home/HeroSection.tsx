@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-navy overflow-hidden pt-8">
+    <section className="relative min-h-screen flex items-center justify-center bg-cream overflow-hidden pt-8">
       {/* Decorative Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-32 h-32 border-2 border-secondary rounded-full"></div>
@@ -18,12 +18,12 @@ export default function HeroSection() {
         <div className="animate-fade-in">
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-secondary/30 mb-5 mt-1">
-            <Star className="w-4 h-4 text-secondary fill-current" />
+            <Star className="w-4 h-4 text-gold fill-current" />
             <span className="text-sm font-medium text-brown">Trusted Since 1930</span>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-heading font-bold text-gold mb-6 leading-tight animate-slide-up">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-heading font-bold text-brown mb-6 leading-tight animate-slide-up">
             Exquisite Jewelry
             <br />
             <span className="text-gold">Crafted with</span>
@@ -32,7 +32,7 @@ export default function HeroSection() {
           </h1>
 
           {/* Subheading */}
-          <p className="text-lg sm:text-xl text-gold/90 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl text-brown/80 mb-8 max-w-3xl mx-auto leading-relaxed">
             Discover our magnificent collection of handcrafted gold and diamond jewelry,
             where timeless tradition meets contemporary elegance at Raipur's most trusted jeweller.
           </p>
@@ -41,7 +41,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary-dark text-white px-8 py-4 text-lg font-semibold group"
+              className="bg-gold hover:bg-secondary-bronze text-brown px-8 py-4 text-lg font-semibold group"
               asChild
             >
               <Link href="/collections" className="flex items-center space-x-2">
@@ -53,7 +53,7 @@ export default function HeroSection() {
             <Button
               variant="outline"
               size="lg"
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 text-lg font-semibold"
+              className="border-2 border-gold text-brown hover:bg-gold hover:text-brown px-8 py-4 text-lg font-semibold"
               asChild
             >
               <Link href="/contact">Visit Our Store</Link>
@@ -63,20 +63,20 @@ export default function HeroSection() {
           {/* Trust Indicators */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">40+</div>
-              <div className="text-sm text-white">Years Experience</div>
+              <div className="text-3xl font-bold text-brown mb-1">40+</div>
+              <div className="text-sm text-brown">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">10k+</div>
-              <div className="text-sm text-white">Happy Customers</div>
+              <div className="text-3xl font-bold text-brown mb-1">10k+</div>
+              <div className="text-sm text-brown">Happy Customers</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">916</div>
-              <div className="text-sm text-white">Gold Purity</div>
+              <div className="text-3xl font-bold text-brown mb-1">916</div>
+              <div className="text-sm text-brown">Gold Purity</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">100%</div>
-              <div className="text-sm text-white">Certified</div>
+              <div className="text-3xl font-bold text-brown mb-1">100%</div>
+              <div className="text-sm text-brown">Certified</div>
             </div>
           </div>
         </div>

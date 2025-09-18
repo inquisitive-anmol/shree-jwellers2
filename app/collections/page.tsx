@@ -13,7 +13,7 @@ export default function CollectionsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Page Header */}
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-navy mb-6">
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-brown mb-6">
               Our Jewelry Collections
             </h1>
             <p className="text-xl text-brown/80 max-w-3xl mx-auto">
@@ -51,7 +51,7 @@ export default function CollectionsPage() {
 
                 {/* Content */}
                 <div className="p-8">
-                  <h3 className="text-2xl font-heading font-bold text-navy mb-3 group-hover:text-navy-dark transition-colors">
+                  <h3 className="text-2xl font-heading font-bold text-brown mb-3 group-hover:text-secondary transition-colors">
                     {category.name}
                   </h3>
                   <p className="text-brown/70 mb-6 leading-relaxed">

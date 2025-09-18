@@ -39,7 +39,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-navy mb-6">
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-brown mb-6">
               Get in <span className="text-secondary">Touch</span>
             </h1>
             <p className="text-xl text-brown/80 max-w-3xl mx-auto">
@@ -51,14 +51,14 @@ export default function ContactPage() {
             {/* Contact Information */}
             <div className="lg:col-span-1 space-y-8">
               <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <h2 className="text-2xl font-heading font-bold text-navy mb-6">
+                <h2 className="text-2xl font-heading font-bold text-brown mb-6">
                   Contact Information
                 </h2>
 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-navy/10 rounded-full flex items-center justify-center flex-shrink-0">
-                      <MapPin className="w-6 h-6 text-navy" />
+                    <div className="w-12 h-12 bg-brown/10 rounded-full flex items-center justify-center flex-shrink-0">
+                      <MapPin className="w-6 h-6 text-brown" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-brown mb-1">Store Address</h3>
@@ -67,14 +67,14 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-navy/10 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Phone className="w-6 h-6 text-navy" />
+                    <div className="w-12 h-12 bg-brown/10 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Phone className="w-6 h-6 text-brown" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-brown mb-1">Phone</h3>
                       <a
                         href={`tel:${contactInfo.phone}`}
-                        className="text-brown/70 hover:text-navy transition-colors"
+                        className="text-brown/70 hover:text-brown transition-colors"
                       >
                         {contactInfo.phone}
                       </a>
@@ -82,14 +82,14 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-navy/10 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Mail className="w-6 h-6 text-navy" />
+                    <div className="w-12 h-12 bg-brown/10 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Mail className="w-6 h-6 text-brown" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-brown mb-1">Email</h3>
                       <a
                         href={`mailto:${contactInfo.email}`}
-                        className="text-brown/70 hover:text-navy transition-colors"
+                        className="text-brown/70 hover:text-brown transition-colors"
                       >
                         {contactInfo.email}
                       </a>
@@ -97,8 +97,8 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-navy/10 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-6 h-6 text-navy" />
+                    <div className="w-12 h-12 bg-brown/10 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Clock className="w-6 h-6 text-brown" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-brown mb-1">Store Hours</h3>
@@ -136,7 +136,7 @@ export default function ContactPage() {
             {/* Contact Form */}
             <div className="lg:col-span-2">
               <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <h2 className="text-2xl font-heading font-bold text-navy mb-6">
+                <h2 className="text-2xl font-heading font-bold text-brown mb-6">
                   Send us a Message
                 </h2>
 
@@ -227,7 +227,7 @@ export default function ContactPage() {
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full bg-navy hover:bg-navy-dark text-white"
+                    className="w-full bg-brown hover:bg-brown-dark text-white"
                   >
                     Send Message
                   </Button>
@@ -238,7 +238,7 @@ export default function ContactPage() {
 
           {/* Map Section */}
           <div className="bg-white rounded-2xl p-8 shadow-lg mt-8 ">
-            <h2 className="text-2xl font-heading font-bold text-navy mb-6 text-center">
+            <h2 className="text-2xl font-heading font-bold text-brown mb-6 text-center">
               Visit Our Store
             </h2>
             <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center overflow-hidden">

@@ -34,17 +34,17 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <nav className="flex items-center space-x-2 text-sm text-brown/70 mb-8">
-          <Link href="/" className="hover:text-navy transition-colors">Home</Link>
+          <Link href="/" className="hover:text-brown transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/collections" className="hover:text-navy transition-colors">Collections</Link>
+          <Link href="/collections" className="hover:text-brown transition-colors">Collections</Link>
           <span>/</span>
-          <span className="text-navy font-medium">{category.name}</span>
+          <span className="text-brown font-medium">{category.name}</span>
         </nav>
 
         {/* Back Button */}
         <Link 
           href="/collections"
-          className="inline-flex items-center space-x-2 text-navy hover:text-navy-dark transition-colors mb-8 group"
+          className="inline-flex items-center space-x-2 text-brown hover:text-brown-dark transition-colors mb-8 group"
         >
           <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
           <span>Back to Collections</span>
@@ -52,7 +52,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
         {/* Category Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-heading font-bold text-navy mb-4">
+          <h1 className="text-4xl md:text-6xl font-heading font-bold text-brown mb-4">
             {category.name}
           </h1>
           <p className="text-lg text-brown/80 max-w-2xl mx-auto mb-8">
@@ -71,7 +71,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
         {/* Load More */}
         <div className="text-center mt-16">
-          <Button size="lg" variant="outline" className="border-navy text-navy hover:bg-navy hover:text-white">
+          <Button size="lg" variant="outline" className="border-brown text-brown hover:bg-brown hover:text-white">
             Load More Products
           </Button>
         </div>

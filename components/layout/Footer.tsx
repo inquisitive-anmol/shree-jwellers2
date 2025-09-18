@@ -6,7 +6,7 @@ import { contactInfo, categories } from '@/lib/data';
 
 export default function Footer() {
   return (
-    <footer className="bg-navy text-white">
+    <footer className="bg-brown text-white">
       {/* Newsletter Section */}
       {/* <div className="bg-navy-dark py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -55,14 +55,14 @@ export default function Footer() {
                 Your trusted partner for life's precious moments.
               </p>
               <div className="flex space-x-3">
-                <a href="#" className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-secondary transition-colors">
-                  <Facebook className="w-4 h-4" />
+                <a href="#" className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
+                  <Facebook className="w-4 h-4 text-gold" />
                 </a>
-                <a href="#" className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-secondary transition-colors">
-                  <Instagram className="w-4 h-4" />
+                <a href="#" className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
+                  <Instagram className="w-4 h-4 text-gold" />
                 </a>
-                <a href="#" className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-secondary transition-colors">
-                  <Youtube className="w-4 h-4" />
+                <a href="#" className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
+                  <Youtube className="w-4 h-4 text-gold" />
                 </a>
               </div>
             </div>
@@ -71,12 +71,12 @@ export default function Footer() {
             <div>
               <h4 className="text-lg font-heading font-semibold mb-4">Quick Links</h4>
               <ul className="grid grid-cols-3 gap-2 text-sm md:space-y-2 md:grid-cols-1 md:text-base">
-                <li><Link href="/collections" className="text-white/80 hover:text-secondary transition-colors">Collections</Link></li>
-                <li><Link href="/services" className="text-white/80 hover:text-secondary transition-colors">Services</Link></li>
-                <li><Link href="/about" className="text-white/80 hover:text-secondary transition-colors">About Us</Link></li>
-                <li><Link href="/contact" className="text-white/80 hover:text-secondary transition-colors">Contact</Link></li>
-                <li><Link href="/care-guide" className="text-white/80 hover:text-secondary transition-colors">Jewelry Care</Link></li>
-                <li><Link href="/sizing-guide" className="text-white/80 hover:text-secondary transition-colors">Sizing Guide</Link></li>
+                <li><Link href="/collections" className="text-white/80 hover:text-gold transition-colors">Collections</Link></li>
+                <li><Link href="/services" className="text-white/80 hover:text-gold transition-colors">Services</Link></li>
+                <li><Link href="/about" className="text-white/80 hover:text-gold transition-colors">About Us</Link></li>
+                <li><Link href="/contact" className="text-white/80 hover:text-gold transition-colors">Contact</Link></li>
+                <li><Link href="/care-guide" className="text-white/80 hover:text-gold transition-colors">Jewelry Care</Link></li>
+                <li><Link href="/sizing-guide" className="text-white/80 hover:text-gold transition-colors">Sizing Guide</Link></li>
               </ul>
             </div>
 
@@ -88,7 +88,7 @@ export default function Footer() {
                   <li key={category.id}>
                     <Link 
                       href={`/categories/${category.slug}`}
-                      className="text-white/80 hover:text-secondary transition-colors"
+                      className="text-white/80 hover:text-gold transition-colors"
                     >
                       {category.name}
                     </Link>
@@ -102,23 +102,23 @@ export default function Footer() {
               <h4 className="text-lg font-heading font-semibold mb-4">Contact Info</h4>
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
-                  <MapPin className="w-5 h-5 text-secondary mt-0.5 flex-shrink-0" />
+                  <MapPin className="w-5 h-5 text-gold mt-0.5 flex-shrink-0" />
                   <p className="text-white/80 text-sm">{contactInfo.address}</p>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Phone className="w-5 h-5 text-secondary" />
-                  <a href={`tel:${contactInfo.phone}`} className="text-white/80 hover:text-secondary transition-colors">
+                  <Phone className="w-5 h-5 text-gold" />
+                  <a href={`tel:${contactInfo.phone}`} className="text-white/80 hover:text-gold transition-colors">
                     {contactInfo.phone}
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Mail className="w-5 h-5 text-secondary" />
-                  <a href={`mailto:${contactInfo.email}`} className="text-white/80 hover:text-secondary transition-colors">
+                  <Mail className="w-5 h-5 text-gold" />
+                  <a href={`mailto:${contactInfo.email}`} className="text-white/80 hover:text-gold transition-colors">
                     {contactInfo.email}
                   </a>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <Clock className="w-5 h-5 text-secondary mt-0.5" />
+                  <Clock className="w-5 h-5 text-gold mt-0.5" />
                   <div className="text-white/80 text-sm">
                     <p>Mon-Fri: {contactInfo.hours.weekdays}</p>
                     <p>Sat-Sun: {contactInfo.hours.weekends}</p>
@@ -138,13 +138,13 @@ export default function Footer() {
               © 2025 Priyansh Jewellerss. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
-              <Link href="/privacy" className="text-white/80 hover:text-secondary transition-colors">
+              <Link href="/privacy" className="text-white/80 hover:text-gold transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="text-white/80 hover:text-secondary transition-colors">
+              <Link href="/terms" className="text-white/80 hover:text-gold transition-colors">
                 Terms of Service
               </Link>
-              <Link href="/returns" className="text-white/80 hover:text-secondary transition-colors">
+              <Link href="/returns" className="text-white/80 hover:text-gold transition-colors">
                 Return Policy
               </Link>
             </div>

@@ -27,8 +27,8 @@ export default function ServicesPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-heading font-bold text-navy mb-6">
-            Our <span className="text-secondary">Premium</span> Services
+          <h1 className="text-4xl md:text-6xl font-heading font-bold text-brown mb-6">
+            Our <span className="text-gold">Premium</span> Services
           </h1>
           <p className="text-xl text-brown/80 max-w-3xl mx-auto">
             Beyond beautiful jewelry, we offer innovative financial solutions and personalized 
@@ -50,10 +50,10 @@ export default function ServicesPage() {
                   {/* Icon and Title */}
                   <div className="flex items-center space-x-4 mb-6">
                     <div className="w-16 h-16 bg-gold-gradient rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <IconComponent className="w-8 h-8 text-navy" />
+                      <IconComponent className="w-8 h-8 text-brown" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-heading font-bold text-navy">
+                      <h2 className="text-2xl font-heading font-bold text-brown">
                         {service.title}
                       </h2>
                     </div>
@@ -78,7 +78,7 @@ export default function ServicesPage() {
                   </div>
 
                   {/* CTA */}
-                  <Button className="w-full bg-navy hover:bg-navy-dark text-white group">
+                  <Button className="w-full bg-gold hover:bg-secondary-bronze text-brown group">
                     <span>Learn More</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
@@ -90,29 +90,29 @@ export default function ServicesPage() {
 
         {/* Additional Services */}
         <div className="bg-white rounded-2xl p-12 shadow-lg text-center">
-          <h2 className="text-3xl font-heading font-bold text-navy mb-6">
+          <h2 className="text-3xl font-heading font-bold text-brown mb-6">
             Additional Services
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div className="space-y-3">
-              <h3 className="font-semibold text-navy">Jewelry Repair & Maintenance</h3>
+              <h3 className="font-semibold text-brown">Jewelry Repair & Maintenance</h3>
               <p className="text-brown/70 text-sm">Professional repair and cleaning services</p>
             </div>
             
             <div className="space-y-3">
-              <h3 className="font-semibold text-navy">Gold Exchange</h3>
+              <h3 className="font-semibold text-brown">Gold Exchange</h3>
               <p className="text-brown/70 text-sm">Exchange your old gold for new designs</p>
             </div>
             
             <div className="space-y-3">
-              <h3 className="font-semibold text-navy">Certification & Appraisal</h3>
+              <h3 className="font-semibold text-brown">Certification & Appraisal</h3>
               <p className="text-brown/70 text-sm">Professional jewelry valuation services</p>
             </div>
           </div>
 
           <Link href="/contact">
-            <Button size="lg" className="bg-navy hover:bg-navy-dark text-white">
+            <Button size="lg" className="bg-gold hover:bg-secondary-bronze text-brown">
               Contact Us for More Information
             </Button>
           </Link>

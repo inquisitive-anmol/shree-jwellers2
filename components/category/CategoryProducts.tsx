@@ -44,7 +44,7 @@ export default function CategoryProducts({ products }: CategoryProductsProps) {
               <button
                 key={tag}
                 onClick={() => toggle(tag)}
-                className={`px-3 py-1 rounded-full border text-xs ${selected.includes(tag) ? 'bg-navy text-white border-navy' : 'bg-white text-brown/80 border-gray-300'}`}
+                className={`px-3 py-1 rounded-full border text-xs ${selected.includes(tag) ? 'bg-brown text-white border-brown' : 'bg-white text-brown/80 border-gray-300'}`}
               >
                 {tag}
               </button>
@@ -66,23 +66,23 @@ export default function CategoryProducts({ products }: CategoryProductsProps) {
               <ImageCarousel images={product.images} alt={product.name} priority={index < 4} />
               <div className="pointer-events-none absolute top-4 right-4 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-opacity">
                 <button className="pointer-events-auto w-8 h-8 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
-                  <Heart className="w-4 h-4 text-navy" />
+                  <Heart className="w-4 h-4 text-brown" />
                 </button>
                 <button className="pointer-events-auto w-8 h-8 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
-                  <Share2 className="w-4 h-4 text-navy" />
+                  <Share2 className="w-4 h-4 text-brown" />
                 </button>
               </div>
               {product.originalPrice && (
-                <div className="absolute top-4 left-4 bg-navy text-white px-3 py-1 rounded-full text-xs font-semibold">SALE</div>
+                <div className="absolute top-4 left-4 bg-brown text-white px-3 py-1 rounded-full text-xs font-semibold">SALE</div>
               )}
             </div>
             <div className="p-6">
-              <h3 className="text-lg font-heading font-semibold text-navy mb-2 group-hover:text-navy-dark transition-colors">
+              <h3 className="text-lg font-heading font-semibold text-brown mb-2 group-hover:text-brown-dark transition-colors">
                 {product.name}
               </h3>
               <p className="text-sm text-brown/70 mb-3">{product.material}</p>
               <div className="flex items-center space-x-2 mb-4">
-                <span className="text-xl font-bold text-navy">₹{product.price.toLocaleString()}</span>
+                <span className="text-xl font-bold text-brown">{product.price && "₹"}{product.price?.toLocaleString()}</span>
                 {product.originalPrice && (
                   <span className="text-sm text-brown/50 line-through">₹{product.originalPrice.toLocaleString()}</span>
                 )}
@@ -94,7 +94,7 @@ export default function CategoryProducts({ products }: CategoryProductsProps) {
               <div className={`text-xs font-medium mb-4 ${product.inStock ? 'text-green-600' : 'text-red-600'}`}>
                 {product.inStock ? '✓ In Stock' : '✗ Out of Stock'}
               </div>
-              <Button className="w-full bg-navy hover:bg-navy-dark text-white" disabled={!product.inStock}>
+              <Button className="w-full bg-brown hover:bg-brown-dark text-white" disabled={!product.inStock}>
                 {product.inStock ? 'View Details' : 'Notify When Available'}
               </Button>
             </div>
