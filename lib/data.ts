@@ -6,7 +6,7 @@ export const categories: Category[] = [
     name: 'Gold Rings',
     slug: 'gold-rings',
     description: 'Elegant gold rings for every occasion',
-    image: 'https://images.pexels.com/photos/1721944/pexels-photo-1721944.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://images.pexels.com/photos/30396670/pexels-photo-30396670.jpeg',
     productCount: 24,
   },
   {
@@ -14,7 +14,7 @@ export const categories: Category[] = [
     name: 'Bracelets',
     slug: 'bracelets',
     description: 'Beautiful gold and diamond bracelets',
-    image: 'https://images.pexels.com/photos/1454191/pexels-photo-1454191.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/1200x/70/70/c0/7070c038191ca0b0efff96531bcb9604.jpg',
     productCount: 18,
   },
   {
@@ -22,7 +22,7 @@ export const categories: Category[] = [
     name: 'Earrings',
     slug: 'earrings',
     description: 'Traditional and modern earring designs',
-    image: 'https://images.pexels.com/photos/1391480/pexels-photo-1391480.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/7a/2f/df/7a2fdf103b96d1340e1774f9bb0d9228.jpg',
     productCount: 32,
   },
   {
@@ -30,7 +30,7 @@ export const categories: Category[] = [
     name: 'Necklaces',
     slug: 'necklaces',
     description: 'Stunning necklaces for special moments',
-    image: 'https://images.pexels.com/photos/1721555/pexels-photo-1721555.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/1200x/7a/0c/60/7a0c607c683ac70fd73d650e2634b928.jpg',
     productCount: 28,
   },
   {
@@ -38,7 +38,7 @@ export const categories: Category[] = [
     name: 'Bangles',
     slug: 'bangles',
     description: 'Traditional gold bangles and kadas',
-    image: 'https://images.pexels.com/photos/1726254/pexels-photo-1726254.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/1200x/07/45/72/074572b8951b853038e1fe6ef9f81cf1.jpg',
     productCount: 22,
   },
   {
@@ -46,7 +46,7 @@ export const categories: Category[] = [
     name: 'Pendants',
     slug: 'pendants',
     description: 'Exquisite gold and diamond pendants',
-    image: 'https://images.pexels.com/photos/1453769/pexels-photo-1453769.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/1200x/72/f7/74/72f7743732fa5544b8a253a5c495965f.jpg',
     productCount: 16,
   },
   {
@@ -70,7 +70,7 @@ export const categories: Category[] = [
     name: 'Silver Necklaces',
     slug: 'silver-necklaces',
     description: 'Diamond simulant, beads, antique polish, traditional necklaces',
-    image: 'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/c9/38/4f/c9384f8f8a817372f5b84de2d9440986.jpg',
     productCount: 12,
   },
   {
@@ -78,7 +78,7 @@ export const categories: Category[] = [
     name: 'Silver Pendants',
     slug: 'silver-pendants',
     description: 'Religious, meenakari, alphabet, kids, tabiz, pearl pendants',
-    image: 'https://images.pexels.com/photos/1453769/pexels-photo-1453769.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/e7/c9/50/e7c9501e8613b6622e05f76a201ff676.jpg',
     productCount: 16,
   },
   {
@@ -86,7 +86,7 @@ export const categories: Category[] = [
     name: 'Silver Earrings',
     slug: 'silver-earrings',
     description: 'Jhumka, Traditional, Antique, Simulant, Chandbali, Studs',
-    image: 'https://images.pexels.com/photos/1391480/pexels-photo-1391480.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/26/b2/18/26b2188518bf62b77f3fdf33266eae08.jpg',
     productCount: 8,
   },
   {
@@ -94,7 +94,7 @@ export const categories: Category[] = [
     name: 'Silver Bangles / Bracelets',
     slug: 'silver-bangles-bracelets',
     description: 'Gents, Female, Plain, beads, Evil-eye, Kada styles',
-    image: 'https://images.pexels.com/photos/1726254/pexels-photo-1726254.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/1200x/48/c9/8d/48c98d89c14c6d60040709b42286832b.jpg',
     productCount: 10,
   },
   {
@@ -102,7 +102,7 @@ export const categories: Category[] = [
     name: 'Silver Rings',
     slug: 'silver-rings',
     description: 'Meenakari, simulant, engraved, bands, antique, premium',
-    image: 'https://images.pexels.com/photos/1721944/pexels-photo-1721944.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/1200x/77/1f/62/771f62920b29e49446b8f71c798f3f07.jpg',
     productCount: 10,
   },
   {
@@ -110,7 +110,7 @@ export const categories: Category[] = [
     name: 'Silver Anklets (Payal)',
     slug: 'silver-anklets',
     description: 'Handmade, machine-made, daily wear, beads and more',
-    image: 'https://images.pexels.com/photos/1721555/pexels-photo-1721555.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/1200x/9a/1e/fa/9a1efa5764d9706166c1a311fe423b31.jpg',
     productCount: 10,
   },
   {
@@ -118,7 +118,7 @@ export const categories: Category[] = [
     name: 'Silver Toe Rings',
     slug: 'silver-toe-rings',
     description: 'Plain, engraved, meenakari, diamond simulant',
-    image: 'https://images.pexels.com/photos/276587/pexels-photo-276587.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/10/f8/a3/10f8a3d65737cbe7b093bd8c0c656653.jpg',
     productCount: 6,
   },
   {
@@ -126,7 +126,7 @@ export const categories: Category[] = [
     name: 'Silver Waistbands (Kamarbandh)',
     slug: 'silver-waistbands',
     description: 'Traditional, Bridal, Machine-Made',
-    image: 'https://images.pexels.com/photos/265906/pexels-photo-265906.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/69/4d/ab/694dab8d53299dcb3eb6b10f803c5900.jpg',
     productCount: 6,
   },
   {
@@ -134,7 +134,7 @@ export const categories: Category[] = [
     name: 'Silver Hair Accessories',
     slug: 'silver-hair-accessories',
     description: 'Hair Pins, Braid Band, Silver Comb',
-    image: 'https://images.pexels.com/photos/3651597/pexels-photo-3651597.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/e9/47/18/e9471896b7c33d01984bb94441b81ac0.jpg',
     productCount: 6,
   },
   {
@@ -142,7 +142,7 @@ export const categories: Category[] = [
     name: 'Silver Chains',
     slug: 'silver-chains',
     description: 'Daily wear, Antique, Religious malas',
-    image: 'https://images.pexels.com/photos/265906/pexels-photo-265906.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/93/2c/b5/932cb5f1c96079515ea7fb1c9f2a8946.jpg',
     productCount: 8,
   },
   {
@@ -150,7 +150,7 @@ export const categories: Category[] = [
     name: 'Silver Utensils & Articles',
     slug: 'silver-utensils-articles',
     description: 'Utensils, decorative items, frames and more',
-    image: 'https://images.pexels.com/photos/7470310/pexels-photo-7470310.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/1200x/32/93/56/329356dbbade5399d621178fb5701d8d.jpg',
     productCount: 12,
   },
   {
@@ -158,7 +158,7 @@ export const categories: Category[] = [
     name: 'Silver Rajputi Jewellery',
     slug: 'silver-rajputi',
     description: 'Festival & Wedding Sets',
-    image: 'https://images.pexels.com/photos/179909/pexels-photo-179909.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/1200x/b0/2a/81/b02a81b1c5332ad4708e836ee4d2b6cb.jpg',
     productCount: 4,
   },
   {
@@ -166,7 +166,7 @@ export const categories: Category[] = [
     name: 'Silver Pujan Items',
     slug: 'silver-pujan-items',
     description: 'Thakur Ji shringar, deepak, idols, yantras and more',
-    image: 'https://images.pexels.com/photos/5646517/pexels-photo-5646517.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/6c/53/4b/6c534b7af7996f0ed6a5508d540eda29.jpg',
     productCount: 12,
   },
 ];
@@ -209,7 +209,7 @@ export const sampleProducts: Product[] = [
     category: 'gold-rings',
     // price: 45000,
     // originalPrice: 48000,
-    images: ['https://images.pexels.com/photos/1721944/pexels-photo-1721944.jpeg?auto=compress&cs=tinysrgb&w=600'],
+    images: ['https://i.pinimg.com/736x/4d/60/d5/4d60d51bde90cc38869644973402a1b0.jpg'],
     description: 'Elegant 22k gold ring with intricate traditional design',
     material: '22k Gold',
     // weight: '8.5g',
@@ -219,133 +219,198 @@ export const sampleProducts: Product[] = [
   },
   // Minimal products per new category with tags for filters
   // Silver Necklaces
-  { id: 'sn-1', 
-    name: 'Simulant Halo Necklace', 
-    category: 'silver-necklaces', 
+  {
+    id: 'sn-1',
+    name: 'Simulant Halo Necklace',
+    category: 'silver-necklaces',
     // price: 3499, 
-    images: ['https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=600'], 
-    description: 'Halo diamond simulant pendant', material: '925 Silver', inStock: true, featured: true, tags: ['diamond simulant'] 
+    images: ['https://i.pinimg.com/736x/39/12/e1/3912e18421a082415d562700634312d2.jpg'],
+    description: 'Halo diamond simulant pendant', material: '925 Silver', inStock: true, featured: true, tags: ['diamond simulant']
   },
-  { id: 'sn-2', name: 'Black Beads Mala', category: 'silver-necklaces', 
+  {
+    id: 'sn-2', name: 'Black Beads Mala', category: 'silver-necklaces',
     // price: 1999, 
-    images: ['https://images.pexels.com/photos/3551562/pexels-photo-3551562.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Traditional black beads', material: '925 Silver + Beads', inStock: true, featured: false, tags: ['Beads Necklace'] },
-  { id: 'sn-3', name: 'Antique Temple Choker', category: 'silver-necklaces',
+    images: ['https://i.pinimg.com/1200x/51/5e/e7/515ee7c3a471871b299956ab1b974bc6.jpg'], description: 'Traditional black beads', material: '925 Silver + Beads', inStock: true, featured: false, tags: ['Beads Necklace']
+  },
+  {
+    id: 'sn-3', name: 'Antique Temple Choker', category: 'silver-necklaces',
     //  price: 4299,
-      images: ['https://images.pexels.com/photos/7691190/pexels-photo-7691190.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Antique polish temple motifs', material: '925 Silver', inStock: true, featured: false, tags: ['Antique Gold Polished'] },
-  { id: 'sn-4', name: 'Traditional Coin Mala', category: 'silver-necklaces', 
+    images: ['https://i.pinimg.com/1200x/12/9d/87/129d87a4884ef90474ef736d9702eadc.jpg'], description: 'Antique polish temple motifs', material: '925 Silver', inStock: true, featured: false, tags: ['Antique Gold Polished']
+  },
+  {
+    id: 'sn-4', name: 'Traditional Coin Mala', category: 'silver-necklaces',
     // price: 3199,
-     images: ['https://images.pexels.com/photos/1047570/pexels-photo-1047570.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Traditional coin discs', material: '925 Silver', inStock: true, featured: false, tags: ['Traditional'] },
+    images: ['https://i.pinimg.com/736x/52/ba/0c/52ba0c33257303672d405f13c4c1dc17.jpg'], description: 'Traditional coin discs', material: '925 Silver', inStock: true, featured: false, tags: ['Traditional']
+  },
 
   // Silver Pendants
-  { id: 'sp-1', name: 'Hanuman Ji Pendant', category: 'silver-pendants', 
+  {
+    id: 'sp-1', name: 'Hanuman Ji Pendant', category: 'silver-pendants',
     // price: 1199, 
-    images: ['https://images.pexels.com/photos/235620/pexels-photo-235620.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Religious symbol', material: '925 Silver', inStock: true, featured: true, tags: ['Religious Symbols', 'Hanuman ji'] },
-  { id: 'sp-2', name: 'Meenakari Flower Pendant', category: 'silver-pendants', 
+    images: ['https://i.pinimg.com/1200x/d8/a9/1b/d8a91bd5f80fca9e951ff6d327e8db32.jpg'], description: 'Religious symbol', material: '925 Silver', inStock: true, featured: true, tags: ['Religious Symbols', 'Hanuman ji']
+  },
+  {
+    id: 'sp-2', name: 'Meenakari Flower Pendant', category: 'silver-pendants',
     // price: 1399, 
-    images: ['https://images.pexels.com/photos/235620/pexels-photo-235620.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Colorful enamel work', material: '925 Silver + Enamel', inStock: true, featured: false, tags: ['Meenakari', 'Flower'] },
-  { id: 'sp-3', name: 'Alphabet A Pendant', category: 'silver-pendants', 
+    images: ['https://i.pinimg.com/1200x/99/95/ce/9995ce07e0e6b9368d0474855f6152d4.jpg'], description: 'Colorful enamel work', material: '925 Silver + Enamel', inStock: true, featured: false, tags: ['Meenakari', 'Flower']
+  },
+  {
+    id: 'sp-3', name: 'Alphabet A Pendant', category: 'silver-pendants',
     // price: 999, 
-    images: ['https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Initial pendant', material: '925 Silver', inStock: true, featured: false, tags: ['Alphabatical'] },
-  { id: 'sp-4', name: 'Pearl Drop Pendant', category: 'silver-pendants',
+    images: ['https://i.pinimg.com/1200x/84/0c/db/840cdbb4c352d01304e162bd10d0043e.jpg'], description: 'Initial pendant', material: '925 Silver', inStock: true, featured: false, tags: ['Alphabatical']
+  },
+  {
+    id: 'sp-4', name: 'Pearl Drop Pendant', category: 'silver-pendants',
     //  price: 1499,
-      images: ['https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Elegant pearl drop', material: '925 Silver + Pearl', inStock: true, featured: false, tags: ['pearl'] },
+    images: ['https://i.pinimg.com/1200x/83/fe/57/83fe57016fe6b5b01be21357bfe5a23d.jpg'], description: 'Elegant pearl drop', material: '925 Silver + Pearl', inStock: true, featured: false, tags: ['pearl']
+  },
 
   // Silver Earrings
-  { id: 'se-1', name: 'Traditional Jhumka', category: 'silver-earrings', 
+  {
+    id: 'se-1', name: 'Traditional Jhumka', category: 'silver-earrings',
     // price: 1699,
-     images: ['https://images.pexels.com/photos/7691176/pexels-photo-7691176.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Bell-shaped jhumka', material: '925 Silver', inStock: true, featured: true, tags: ['Jhumka', 'Traditional'] },
-  { id: 'se-2', name: 'Simulant Studs', category: 'silver-earrings',
+    images: ['https://i.pinimg.com/1200x/11/12/a4/1112a46212544e44c9d303d61f133bbc.jpg'], description: 'Bell-shaped jhumka', material: '925 Silver', inStock: true, featured: true, tags: ['Jhumka', 'Traditional']
+  },
+  {
+    id: 'se-2', name: 'Simulant Studs', category: 'silver-earrings',
     //  price: 999, 
-     images: ['https://images.pexels.com/photos/50628/pexels-photo-50628.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Everyday studs', material: '925 Silver', inStock: true, featured: false, tags: ['Studs', 'diamond simulant'] },
-  { id: 'se-3', name: 'Oxidised Chandbali', category: 'silver-earrings',
+    images: ['https://i.pinimg.com/736x/fe/a3/96/fea396d8788b56d5d8409697776a3d78.jpg'], description: 'Everyday studs', material: '925 Silver', inStock: true, featured: false, tags: ['Studs', 'diamond simulant']
+  },
+  {
+    id: 'se-3', name: 'Oxidised Chandbali', category: 'silver-earrings',
     //  price: 1899,
-      images: ['https://images.pexels.com/photos/7691189/pexels-photo-7691189.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Half-moon style', material: '925 Silver', inStock: true, featured: false, tags: ['Chandbali', 'Antique'] },
+    images: ['https://i.pinimg.com/736x/b0/fa/45/b0fa456e5c67c4a9aaaa3c1150e51232.jpg'], description: 'Half-moon style', material: '925 Silver', inStock: true, featured: false, tags: ['Chandbali', 'Antique']
+  },
 
   // Silver Bangles / Bracelets
-  { id: 'sbb-1', name: 'Gents Looped Kada', category: 'silver-bangles-bracelets', 
+  {
+    id: 'sbb-1', name: 'Gents Looped Kada', category: 'silver-bangles-bracelets',
     // price: 2499, 
-    images: ['https://images.pexels.com/photos/326670/pexels-photo-326670.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Looped kada', material: '925 Silver', inStock: true, featured: false, tags: ['Gents', 'Kadaa', 'Looped Kada'] },
-  { id: 'sbb-2', name: 'Evil-Eye Bracelet', category: 'silver-bangles-bracelets', 
+    images: ['https://i.pinimg.com/736x/31/a7/1b/31a71b4087a5fabea5a896b345ae2cb4.jpg'], description: 'Looped kada', material: '925 Silver', inStock: true, featured: false, tags: ['Gents', 'Kadaa', 'Looped Kada']
+  },
+  {
+    id: 'sbb-2', name: 'Evil-Eye Bracelet', category: 'silver-bangles-bracelets',
     // price: 1499, 
-    images: ['https://images.pexels.com/photos/1644837/pexels-photo-1644837.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Protection charm', material: '925 Silver', inStock: true, featured: false, tags: ['Evel-Eye'] },
-  { id: 'sbb-3', name: 'Black Beads Bracelet', category: 'silver-bangles-bracelets', 
+    images: ['https://i.pinimg.com/1200x/c8/2e/7b/c82e7bb9fd5c6bcc03592c86d3915b31.jpg'], description: 'Protection charm', material: '925 Silver', inStock: true, featured: false, tags: ['Evel-Eye']
+  },
+  {
+    id: 'sbb-3', name: 'Black Beads Bracelet', category: 'silver-bangles-bracelets',
     // price: 1199, 
-    images: ['https://images.pexels.com/photos/3551562/pexels-photo-3551562.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Black beads', material: '925 Silver', inStock: true, featured: false, tags: ['beads', 'black beads'] },
+    images: ['https://i.pinimg.com/736x/ef/d1/9c/efd19c96fcc7c4787ae2cfb15c71640e.jpg'], description: 'Black beads', material: '925 Silver', inStock: true, featured: false, tags: ['beads', 'black beads']
+  },
 
   // Silver Rings
-  { id: 'sr-1', name: 'Meenakari Ring', category: 'silver-rings', 
+  {
+    id: 'sr-1', name: 'Meenakari Ring', category: 'silver-rings',
     // price: 1299, 
-    images: ['https://images.pexels.com/photos/235620/pexels-photo-235620.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Enamel finish', material: '925 Silver', inStock: true, featured: false, tags: ['Meenakari'] },
-  { id: 'sr-2', name: 'Plain Band', category: 'silver-rings',
+    images: ['https://i.pinimg.com/1200x/5c/90/c6/5c90c63121bb0f34fb977773e69c3951.jpg'], description: 'Enamel finish', material: '925 Silver', inStock: true, featured: false, tags: ['Meenakari']
+  },
+  {
+    id: 'sr-2', name: 'Plain Band', category: 'silver-rings',
     //  price: 899, 
-     images: ['https://images.pexels.com/photos/1721944/pexels-photo-1721944.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Classic band', material: '925 Silver', inStock: true, featured: false, tags: ['Plain Bands', 'plain'] },
-  { id: 'sr-3', name: 'Simulant Halo Ring', category: 'silver-rings', 
+    images: ['https://i.pinimg.com/1200x/94/63/36/946336dce0c88a122b5b1e54ea35180f.jpg'], description: 'Classic band', material: '925 Silver', inStock: true, featured: false, tags: ['Plain Bands', 'plain']
+  },
+  {
+    id: 'sr-3', name: 'Simulant Halo Ring', category: 'silver-rings',
     // price: 1599,
-     images: ['https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Halo simulant', material: '925 Silver', inStock: true, featured: true, tags: ['diamond simulant'] },
+    images: ['https://i.pinimg.com/1200x/e5/fe/b5/e5feb570df136cd530e2b9b97d3c61b3.jpg'], description: 'Halo simulant', material: '925 Silver', inStock: true, featured: true, tags: ['diamond simulant']
+  },
 
   // Silver Anklets (Payal)
-  { id: 'sa-1', name: 'Handmade Payal', category: 'silver-anklets', 
+  {
+    id: 'sa-1', name: 'Handmade Payal', category: 'silver-anklets',
     // price: 1999,
-     images: ['https://images.pexels.com/photos/1721555/pexels-photo-1721555.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Handcrafted', material: '925 Silver', inStock: true, featured: false, tags: ['Handmade', 'Traditional'] },
-  { id: 'sa-2', name: 'Machine-made Payal', category: 'silver-anklets', 
+    images: ['https://i.pinimg.com/1200x/de/bc/0c/debc0c001373c29c00bfb5cad65fe905.jpg'], description: 'Handcrafted', material: '925 Silver', inStock: true, featured: false, tags: ['Handmade', 'Traditional']
+  },
+  {
+    id: 'sa-2', name: 'Machine-made Payal', category: 'silver-anklets',
     // price: 1299,
-     images: ['https://images.pexels.com/photos/265906/pexels-photo-265906.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Durable links', material: '925 Silver', inStock: true, featured: false, tags: ['Machine-made', 'Daily wear'] },
+    images: ['https://i.pinimg.com/1200x/58/d9/94/58d9944fca66657398c0e1a4ea3e5b49.jpg'], description: 'Durable links', material: '925 Silver', inStock: true, featured: false, tags: ['Machine-made', 'Daily wear']
+  },
 
   // Silver Toe Rings
-  { id: 'st-1', name: 'Plain Toe Ring', category: 'silver-toe-rings', 
+  {
+    id: 'st-1', name: 'Plain Toe Ring', category: 'silver-toe-rings',
     // price: 399,
-     images: ['https://images.pexels.com/photos/276587/pexels-photo-276587.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Everyday ring', material: '925 Silver', inStock: true, featured: false, tags: ['Plain'] },
-  { id: 'st-2', name: 'Simulant Toe Ring', category: 'silver-toe-rings', 
+    images: ['https://i.pinimg.com/736x/b7/d6/1c/b7d61c14614e713b6461ca4d6ea1a79a.jpg'], description: 'Everyday ring', material: '925 Silver', inStock: true, featured: false, tags: ['Plain']
+  },
+  {
+    id: 'st-2', name: 'Simulant Toe Ring', category: 'silver-toe-rings',
     // price: 499,
-     images: ['https://images.pexels.com/photos/50628/pexels-photo-50628.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Sparkling simulant', material: '925 Silver', inStock: true, featured: false, tags: ['diamond simulant'] },
+    images: ['https://i.pinimg.com/736x/cc/fd/f1/ccfdf11752849e6b5db60530954c7604.jpg'], description: 'Sparkling simulant', material: '925 Silver', inStock: true, featured: false, tags: ['diamond simulant']
+  },
 
   // Silver Waistbands (Kamarbandh)
-  { id: 'sw-1', name: 'Traditional Kamarbandh', category: 'silver-waistbands', 
+  {
+    id: 'sw-1', name: 'Traditional Kamarbandh', category: 'silver-waistbands',
     // price: 3499,
-     images: ['https://images.pexels.com/photos/7691190/pexels-photo-7691190.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Traditional motifs', material: '925 Silver', inStock: true, featured: false, tags: ['Traditional'] },
-  { id: 'sw-2', name: 'Bridal Kamarbandh', category: 'silver-waistbands', 
+    images: ['https://i.pinimg.com/1200x/36/b7/1b/36b71b89608607b56d5d9b66a10d5301.jpg'], description: 'Traditional motifs', material: '925 Silver', inStock: true, featured: false, tags: ['Traditional']
+  },
+  {
+    id: 'sw-2', name: 'Bridal Kamarbandh', category: 'silver-waistbands',
     // price: 4999, 
-    images: ['https://images.pexels.com/photos/3943792/pexels-photo-3943792.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Bridal style', material: '925 Silver', inStock: true, featured: true, tags: ['Bridal'] },
+    images: ['https://i.pinimg.com/736x/06/17/9d/06179d19ddc796c83194b9501af048e5.jpg'], description: 'Bridal style', material: '925 Silver', inStock: true, featured: true, tags: ['Bridal']
+  },
 
   // Silver Hair Accessories
-  { id: 'sha-1', name: 'Silver Hair Pin', category: 'silver-hair-accessories', 
+  {
+    id: 'sha-1', name: 'Silver Hair Pin', category: 'silver-hair-accessories',
     // price: 599, 
-    images: ['https://images.pexels.com/photos/3651597/pexels-photo-3651597.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Elegant pin', material: '925 Silver', inStock: true, featured: false, tags: ['Hair Pins'] },
-  { id: 'sha-2', name: 'Braid Band', category: 'silver-hair-accessories', 
+    images: ['https://i.pinimg.com/736x/19/68/17/196817cdab639e7c5b12edf1ab32c785.jpg'], description: 'Elegant pin', material: '925 Silver', inStock: true, featured: false, tags: ['Hair Pins']
+  },
+  {
+    id: 'sha-2', name: 'Braid Band', category: 'silver-hair-accessories',
     // price: 999,
-     images: ['https://images.pexels.com/photos/3651597/pexels-photo-3651597.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Decor braid band', material: '925 Silver', inStock: true, featured: false, tags: ['Braid Band'] },
+    images: ['https://i.pinimg.com/1200x/2b/9c/0f/2b9c0fbe77e30cb23a80b52d9efc59cd.jpg'], description: 'Decor braid band', material: '925 Silver', inStock: true, featured: false, tags: ['Braid Band']
+  },
 
   // Silver Chains
-  { id: 'sc-1', name: 'Daily Wear Chain', category: 'silver-chains', 
+  {
+    id: 'sc-1', name: 'Daily Wear Chain', category: 'silver-chains',
     // price: 1199,
-     images: ['https://images.pexels.com/photos/265906/pexels-photo-265906.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Light chain', material: '925 Silver', inStock: true, featured: false, tags: ['Daily Wear'] },
-  { id: 'sc-2', name: 'Rudraksh Mala', category: 'silver-chains', 
+    images: ['https://i.pinimg.com/736x/dc/2a/78/dc2a7836be534b359e609196b1b4bdb3.jpg'], description: 'Light chain', material: '925 Silver', inStock: true, featured: false, tags: ['Daily Wear']
+  },
+  {
+    id: 'sc-2', name: 'Rudraksh Mala', category: 'silver-chains',
     // price: 1499,
-     images: ['https://images.pexels.com/photos/792199/pexels-photo-792199.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Religious mala', material: '925 Silver + Rudraksh', inStock: true, featured: false, tags: ['Religious', 'Rudraksh Mala'] },
+    images: ['https://i.pinimg.com/736x/72/23/bc/7223bc6a0e0650fb2f2e456a5952e371.jpg'], description: 'Religious mala', material: '925 Silver + Rudraksh', inStock: true, featured: false, tags: ['Religious', 'Rudraksh Mala']
+  },
 
   // Silver Utensils & Articles
-  { id: 'sua-1', name: 'Puja Thali Set', category: 'silver-utensils-articles', 
+  {
+    id: 'sua-1', name: 'Puja Thali Set', category: 'silver-utensils-articles',
     // price: 8999,
-     images: ['https://images.pexels.com/photos/5646517/pexels-photo-5646517.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Thali with bowls', material: 'Silver Plated', inStock: true, featured: true, tags: ['Utensils', 'Puja Thali'] },
-  { id: 'sua-2', name: 'Whiskey Flask', category: 'silver-utensils-articles', 
+    images: ['https://i.pinimg.com/1200x/3d/ca/f1/3dcaf1f90dc9db992085e2afccbdad33.jpg'], description: 'Thali with bowls', material: 'Silver Plated', inStock: true, featured: true, tags: ['Utensils', 'Puja Thali']
+  },
+  {
+    id: 'sua-2', name: 'Whiskey Flask', category: 'silver-utensils-articles',
     // price: 4999,
-     images: ['https://images.pexels.com/photos/1451471/pexels-photo-1451471.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Coated flask', material: 'Coated Silver', inStock: true, featured: false, tags: ['Decorative Items', 'Wihskey Flask'] },
+    images: ['https://i.pinimg.com/736x/e1/3b/aa/e13baad0b16453ddd2756395c728f491.jpg'], description: 'Coated flask', material: 'Coated Silver', inStock: true, featured: false, tags: ['Decorative Items', 'Wihskey Flask']
+  },
 
   // Silver Rajputi Jewellery
-  { id: 'srj-1', name: 'Rajputi Wedding Set', category: 'silver-rajputi', 
+  {
+    id: 'srj-1', name: 'Rajputi Wedding Set', category: 'silver-rajputi',
     // price: 12999,
-     images: ['https://images.pexels.com/photos/7691190/pexels-photo-7691190.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Wedding set', material: '925 Silver', inStock: true, featured: true, tags: ['Festival & Wedding Sets'] },
-  { id: 'srj-2', name: 'Rajputi Festival Set', category: 'silver-rajputi', 
+    images: ['https://i.pinimg.com/736x/e8/9b/e7/e89be7afcbe52781fa528f095bfef68b.jpg'], description: 'Wedding set', material: '925 Silver', inStock: true, featured: true, tags: ['Festival & Wedding Sets']
+  },
+  {
+    id: 'srj-2', name: 'Rajputi Festival Set', category: 'silver-rajputi',
     // price: 10999,
-     images: ['https://images.pexels.com/photos/7691190/pexels-photo-7691190.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Festival set', material: '925 Silver', inStock: true, featured: false, tags: ['Festival & Wedding Sets'] },
+    images: ['https://i.pinimg.com/736x/8d/f0/94/8df094e386e61daed2c21ec73da708ad.jpg'], description: 'Festival set', material: '925 Silver', inStock: true, featured: false, tags: ['Festival & Wedding Sets']
+  },
 
   // Silver Pujan Items
-  { id: 'spi-1', name: 'Simple Deepak', category: 'silver-pujan-items', 
+  {
+    id: 'spi-1', name: 'Simple Deepak', category: 'silver-pujan-items',
     // price: 799,
-     images: ['https://images.pexels.com/photos/5646517/pexels-photo-5646517.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Everyday diya', material: '925 Silver', inStock: true, featured: false, tags: ['deepak', 'Simple Dipak'] },
-  { id: 'spi-2', name: 'Shri Ganesha Idol', category: 'silver-pujan-items', 
+    images: ['https://i.pinimg.com/736x/12/75/31/12753150d8d088497805b835afa1197f.jpg'], description: 'Everyday diya', material: '925 Silver', inStock: true, featured: false, tags: ['deepak', 'Simple Dipak']
+  },
+  {
+    id: 'spi-2', name: 'Shri Ganesha Idol', category: 'silver-pujan-items',
     // price: 2999,
-     images: ['https://images.pexels.com/photos/5646517/pexels-photo-5646517.jpeg?auto=compress&cs=tinysrgb&w=600'], description: 'Ganesha idol', material: 'Silver Plated', inStock: true, featured: false, tags: ['idols', 'Shri Ganesha Idol'] },
+    images: ['https://i.pinimg.com/736x/5e/4b/4d/5e4b4dbc9e6919a5c096900828af840a.jpg'], description: 'Ganesha idol', material: 'Silver Plated', inStock: true, featured: false, tags: ['idols', 'Shri Ganesha Idol']
+  },
   {
     id: '2',
     name: 'Diamond Bracelet',
