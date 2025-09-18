@@ -1,4 +1,4 @@
-# Shree Ganesh Jewellers - Premium Jewelry Showcase Website
+# Priyansh Jewellerss - Premium Jewelry Showcase Website
 
 A modern, responsive jewelry showcase website built with Next.js 14 and Tailwind CSS, featuring traditional Indian aesthetics and premium design elements.
 
