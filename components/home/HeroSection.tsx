@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-cream overflow-hidden pt-8">
+    <section className="relative min-h-screen flex items-center justify-center bg-cream overflow-hidden pt-10">
       {/* Decorative Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-32 h-32 border-2 border-secondary rounded-full"></div>
@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-secondary/30 mb-5 mt-1">
+          <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-secondary/30 mb-4 mt-14">
             <Star className="w-4 h-4 text-gold fill-current" />
             <span className="text-sm font-medium text-brown">Trusted Since 1930</span>
           </div>
