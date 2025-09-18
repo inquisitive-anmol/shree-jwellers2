@@ -11,6 +11,7 @@ export interface Product {
   purity?: string;
   inStock: boolean;
   featured: boolean;
+  tags?: string[];
 }
 
 export interface Category {
