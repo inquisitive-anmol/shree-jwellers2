@@ -32,9 +32,9 @@ export default function HeroSection() {
           </h1>
 
           {/* Subheading */}
-          <p className="text-lg sm:text-xl text-brown/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Discover our magnificent collection of handcrafted gold and diamond jewelry,
-            where timeless tradition meets contemporary elegance at Raipur's most trusted jeweller.
+          <p className="text-base sm:text-lg text-brown/80 mb-8 max-w-3xl mx-auto leading-relaxed">
+          Discover our magnificent collection of handcrafted gold and Silver jewelry and Articles, where timeless tradition meets contemporary elegance at Sujangarh's most trusted wholesale jeweller.
+          We offer a wide collection of gold jewellery (18k, 20k, 22k) and silver jewellery With Upto 925 Purity
           </p>
 
           {/* CTA Buttons */}
